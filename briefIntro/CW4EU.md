@@ -13,7 +13,7 @@ Examples of non-library uses include:
 
 ## FaBiO - the FRBR-aligned Bibliographic Ontology
 
-FaBiO (https://sparontologies.github.io/fabio/current/fabio.html) defines its Work class as: "A subclass of FRBR work, restricted to works that are published or potentially publishable, and that contain or are referred to by bibliographic references, or entities used to define bibliographic references." Similar subclasses are created for expression, manifestation and item, and relationships are defined between them beyond those defined in the IFLA FRBR vocabulary. It uses as a basis for FRBR the FRBR Core ontology. (https://vocab.org/frbr/core) 
+[FaBiO](https://sparontologies.github.io/fabio/current/fabio.html) defines its Work class as: "A subclass of FRBR work, restricted to works that are published or potentially publishable, and that contain or are referred to by bibliographic references, or entities used to define bibliographic references." Similar subclasses are created for expression, manifestation and item, and relationships are defined between them beyond those defined in the IFLA FRBR vocabulary. It uses as a basis for FRBR the FRBR Core ontology. (https://vocab.org/frbr/core) 
 <img src="Fabioverbs.png" width="400" height="300">
 
 ## FRIR, for "information resources"
@@ -31,6 +31,6 @@ The [Music Ontology](http://musicontology.com/) is metadata for publishing music
 
 ## Proposed: Created Works Ontology
 
-Each of these uses of the concepts originated in FRBR use (or imply) subclassing to FRBR entities. However, they often include vocabulary rules that are not compliant with those of the IFLA-defined objects. Therefore, a more generalized group of classes representing WEMI that uses minimal semantics would allow subclassing for specific needs that are not appropriate as subclasses of the library community's FRBR. In fact, the library FRBR (now [Library Reference Model](https://www.ifla.org/publications/node/11412) would also be potentially a subclass of this more generalized ontology.
+Each of these uses of the concepts originated in FRBR use (or imply) subclassing to FRBR entities. However, they often include vocabulary rules that are not compliant with those of the IFLA-defined objects. Therefore, a more generalized group of classes representing WEMI that uses minimal semantics would allow subclassing for specific needs that are not appropriate as subclasses of the library community's FRBR. In fact, the library FRBR (now [Library Reference Model](https://www.ifla.org/publications/node/11412)) would also be potentially a subclass of this more generalized ontology.
 ![cwo diagram](cwoDiagram.png)
 
