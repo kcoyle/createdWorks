@@ -29,7 +29,7 @@ This [XML schema](http://www.akomantoso.org/ ) incorporates the WEMI structure t
 
 The [Music Ontology](http://musicontology.com/) is metadata for publishing music online. Music ontology's MusicalWork is subclassed to FRBR Core Work and is to be used only with musical creations. 
 
-## Proposed: Created Works Ontology
+## Proposed: Created Work Ontology
 
 Each of these uses of the concepts originated in FRBR use (or imply) subclassing to FRBR entities. However, they often include vocabulary rules that are not compliant with those of the IFLA-defined objects. Therefore, a more generalized group of classes representing WEMI that uses minimal semantics would allow subclassing for specific needs that are not appropriate as subclasses of the library community's FRBR. In fact, the library FRBR (now [Library Reference Model](https://www.ifla.org/publications/node/11412)) would also be potentially a subclass of this more generalized ontology.
 ![cwo diagram](cwoDiagram.png)
